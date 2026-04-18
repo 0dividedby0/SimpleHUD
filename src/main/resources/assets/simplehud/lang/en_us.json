@@ -1,0 +1,9 @@
+{
+  "key.categories.simplehud": "Simple HUD",
+  "key.simplehud.toggle_overlay": "Toggle World Info HUD",
+  "key.simplehud.toggle_hazard": "Toggle Hazard Line",
+  "message.simplehud.enabled": "Simple HUD enabled",
+  "message.simplehud.disabled": "Simple HUD disabled",
+  "message.simplehud.hazard_enabled": "Hazard line enabled",
+  "message.simplehud.hazard_disabled": "Hazard line disabled"
+}

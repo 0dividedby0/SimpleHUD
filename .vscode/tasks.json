@@ -1,0 +1,54 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "runClient",
+            "type": "shell",
+            "command": "./gradlew",
+            "args": ["runClient"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": "$gradle"
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "./gradlew",
+            "args": ["build"],
+            "group": "build",
+            "presentation": {
+                                                         always",
+                                                                                                             : "$grad                                     "label": "genEclipseRuns"                      "sh                               /gradlew",
+            "args": ["ge            "],                      "args": ["ge         "            "args": ["ge                 "args": ["ge          "reveal": "always",
+                "                "                      "                     },
+            "problemMatcher": "$gradle"
+        },
+        {
+            "label": "genIntellijRuns",
+            "type": "shell",
+                                   
+            "args": ["genIntellijRuns"],
+            "group": "build",
+            "presentation": {
+                                                                                  "focus": false,
+                                              },
+            "problemMatcher": "$gradle"
+        },
+        {
+            "label": "genVSCodeRuns",
+            "type"            "type"            "type"            "type"            "type"            "type"            "type"            "type"            "type"            "type"            "type"            "type"            "type"            "type"          
+                                                                                                                                                                     l"                                                                                                                   sentat                                                       reveal                             "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": "$gradle"
+        }
+    ]
+}
